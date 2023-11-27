@@ -1,0 +1,9 @@
+.divider {
+  display: block;
+  margin: 8px 0;
+  border-bottom: 1px solid var(--silver);
+}
+
+#app {
+  min-height: 100%;
+}

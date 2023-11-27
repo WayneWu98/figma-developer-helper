@@ -1,0 +1,31 @@
+.wrap {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  transform: rotate(var(--rotation));
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 500%;
+  transform: scale(0.2);
+  transform-origin: left top;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  mask-position: 0 0;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.image {
+  background-image: var(--image);
+}
+
+.mask {
+  mask-image: var(--mask);
+  background-color: var(--mask-color, currentColor);
+}

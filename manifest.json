@@ -1,0 +1,9 @@
+{
+  "name": "Figma Developer Helper",
+  "id": "private-plugin",
+  "api": "1.0.0",
+  "editorType": ["figma", "figjam"],
+  "permissions": [],
+  "main": "dist/code.js",
+  "ui": "dist/index.html"
+}
