@@ -4,6 +4,8 @@
 
 This is a tool set for front-end developers to import icon resources. The goal of this project is to make icon resources easy to maintain and use, and to make the process of importing icon resources into the project more efficient, so that developers can focus on the development of business logic.
 
+> This project only provide a poor doc, but I think it is enough for you to understand how it works. If you have any questions, please feel free to open an issue.
+
 ## Features
 
 - Integrated with Ali OSS
